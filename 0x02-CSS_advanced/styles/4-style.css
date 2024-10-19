@@ -1,6 +1,6 @@
-body {
-    font-family: var(--font-family-base);
-    color: var(--text-color); /* Assuming this is already present */
+:root {
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body {
     font-family: var(--font-family-base);
