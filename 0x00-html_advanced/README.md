@@ -1,1 +1,1 @@
-Wireframe of Techium projects
+Wireframe of Techium project
