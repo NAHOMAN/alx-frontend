@@ -16,7 +16,6 @@
 
 /* Set the font-family for the body using the custom property */
 body {
-    color: var(--text-color);
     font-family: var(--font-family-base);
 }
 
