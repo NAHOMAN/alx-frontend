@@ -186,8 +186,8 @@ a[href] {
     display: table;                   /* Display as a table */
     clear: both;                      /* Clear any floating elements on both sides */
 }
-[class^=col-] {
-    float:left;
+[class^="col-"] {
+    float: left;
     padding: calc(0.5rem);
 }
 
