@@ -2,16 +2,32 @@
 
 /* Define custom font-family properties in the root element */
 :root {
-    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Base font family */
-    --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Title font family */
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* Base font family */
+    --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* Title font family */
 }
 
 /* Set the font-family for the body using the custom property */
 body {
-    font-family: var(--font-family-base); /* Using font-family-base custom property */
+    color: var(--text-color);
+    font-family: var(--font-family-base);
 }
 
-/* Set the font-family for all six levels of section headings */
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title); /* Using font-family-title custom property */
+a {
+    color: var(--text-color);
+}
+
+.section-tagline {
+    color: var(--color-primary);
+}
+
+.card-category {
+    color: var(--color-primary);
 }
