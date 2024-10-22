@@ -1,10 +1,22 @@
+/* styles/3-style.css */
+
+/* Define custom font-family properties in the root element */
 :root {
-    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Base font family */
+    --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Title font family */
 }
+
+/* Set the font-family for the body using the custom property */
 body {
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base); /* Using font-family-base custom property */
 }
+
+/* Set the font-family for all six levels of section headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);
+    font-family: var(--font-family-title); /* Using font-family-title custom property */
+}
+
+/* Other styles (such as links) can follow here */
+a {
+    color: var(--text-color); /* Example of a link style */
 }
