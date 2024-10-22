@@ -336,6 +336,7 @@ ul.row {
     top: var(--header-logo-link-top); /* Vertical position for the link */
     left: var(--header-logo-link-left); /* Horizontal position for the link */
 }
+
 nav .nav-link::before {
     content: ""; /* Set content to empty */
     position: absolute; /* Absolutely position the pseudo-elements */
