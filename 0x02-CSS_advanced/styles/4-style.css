@@ -9,13 +9,12 @@
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
     --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /* Base font family */
-    --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /* Title font family */
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
-/* Set the font-family for the body using the custom property */
 body {
+    color: var(--text-color);
     font-family: var(--font-family-base);
 }
 
