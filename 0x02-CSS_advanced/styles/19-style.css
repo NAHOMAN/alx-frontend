@@ -131,7 +131,7 @@ a[href] {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
-    margin: var(--section-tagline-margin); 
+    margin: var(--section-tagline-margin);
     
   }
   .container {
@@ -152,6 +152,7 @@ a[href] {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
   }
+
   ul.row {
     margin: 0;                                                  /* 0 margins all around */
     padding: 0;                                                 /* No padding all around */
