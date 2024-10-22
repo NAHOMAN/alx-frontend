@@ -8,17 +8,17 @@
 
 html {
     font-size: 62.5%;
-  }
+}
 
-  :root {
+:root {
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
-    --font-family-base: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title: "Raleway","Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
@@ -26,7 +26,7 @@ html {
     --font-size-xx-large: 4.8rem;
     --font-weight-regular: 400;
     --font-weight-bold: 700;
-    --line-height-small:1.2;
+    --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
     --section-header-align: center;
@@ -42,32 +42,33 @@ html {
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 0.04em;            
-    --nav-item-display: inline-block;             
-    --nav-item-margin: 3rem 0 0;                  
+    --nav-item-letter-spacing: 0.04em;
+    --nav-item-display: inline-block;
+    --nav-item-margin: 3rem 0 0;
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
-  }
-  
-  body {
+}
+
+body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
-  }
-  .navbar-menu {
+}
+
+.navbar-menu {
     float: right;
-  }
-  
-  nav {
+}
+
+nav {
     margin: 0;
     padding: 0;
     text-align: center;
     list-style: none;
-  }
-  
-  .nav-item {
+}
+
+.nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -90,116 +91,148 @@ html {
 a[href] {
     color: var(--text-color);
     text-decoration: none;
-  }
+}
 
-  a[href]:visited {
+a[href]:visited {
     font-style: italic;
-  }
-  a[href]:hover{
+}
+
+a[href]:hover {
     text-decoration: underline;
-  }
-  a[href]:active{
+}
+
+a[href]:active {
     background-color: var(--color-light-grey);
-  }
-  .section{
+}
+
+.section {
     padding: var(--section-padding);
-  }
-  .section-header {
+}
+
+.section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
-  }
-  .section-body{
+}
+
+.section-body {
     padding: var(--section-body-padding);
-  }
-  .section-footer {
+}
+
+.section-footer {
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
 }
+
 .footer {
     padding: var(--footer-padding);
 }
-  .section-title {
+
+.section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     color: var(--section-title-color);
-  }
-  
-  .section-tagline {
+}
+
+.section-tagline {
     color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
     margin: var(--section-tagline-margin);
-    
-  }
-  .container {
+
+}
+
+.container {
     width: 960px;
     margin: 0 auto;
 }
-  
-  .card-category {
+
+.card-category {
     color: var(--color-primary);
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
-  }
-
-  ul.row {
-    margin: 0;                                                  /* 0 margins all around */
-    padding: 0;                                                 /* No padding all around */
-    list-style: none;                                          /* Remove default list styling */
 }
+
+ul.row {
+    margin: 0;
+    /* 0 margins all around */
+    padding: 0;
+    /* No padding all around */
+    list-style: none;
+    /* Remove default list styling */
+}
+
 .col-1-3 {
-    width: 33.33%;                                             /* Set width to 33.33% of its parent */
-    float: left;                                              /* Float to the left */
-    padding: calc(0.5rem);                                   /* Set padding to half of the root element */
+    width: 33.33%;
+    /* Set width to 33.33% of its parent */
+    float: left;
+    /* Float to the left */
+    padding: calc(0.5rem);
+    /* Set padding to half of the root element */
 }
 
 .col-1-2 {
-    width: 50%;                                               /* Set width to 50% of its parent */
-    float: left;                                              /* Float to the left */
-    padding: calc(0.5rem);                                   /* Set padding to half of the root element */
+    width: 50%;
+    /* Set width to 50% of its parent */
+    float: left;
+    /* Float to the left */
+    padding: calc(0.5rem);
+    /* Set padding to half of the root element */
 }
 
 /* Footer copyright styles */
 .footer-copyright {
-    margin: 0;                                                /* No margins */
-    font-size: var(--font-size-small);                       /* Set size of the fonts */
-    color: var(--text-color);                                 /* Set foreground color */
+    margin: 0;
+    /* No margins */
+    font-size: var(--font-size-small);
+    /* Set size of the fonts */
+    color: var(--text-color);
+    /* Set foreground color */
 }
 
 /* Align text for unordered lists in the footer class */
 .footer ul {
-    text-align: right;                                       /* Align text to the right */
+    text-align: right;
+    /* Align text to the right */
 }
+
 .row::after {
-    content: "";                      /* No content */
-    display: table;                   /* Display as a table */
-    clear: both;                      /* Clear any floating elements on both sides */
+    content: "";
+    /* No content */
+    display: table;
+    /* Display as a table */
+    clear: both;
+    /* Clear any floating elements on both sides */
 }
+
 [class^="col-"] {
     float: left;
     padding: calc(0.5rem);
 }
 
-.col-1-3, .col-1-2 {
+.col-1-3,
+.col-1-2 {
     float: none;
     padding: 0;
 }
 
 [data-section-theme="dark"] {
-    --text-color: var(--color-white);           /* Redefine text-color to color-white */
-    --section-title-color: var(--color-white);  /* Redefine section-title-color to color-white */
-    background-color: var(--color-black);        /* Set background to color-black */
+    --text-color: var(--color-white);
+    /* Redefine text-color to color-white */
+    --section-title-color: var(--color-white);
+    /* Redefine section-title-color to color-white */
+    background-color: var(--color-black);
+    /* Set background to color-black */
 }
 
 .footer-address {
@@ -234,5 +267,3 @@ a[href] {
     color: var(--color-white);
     background-color: var(--color-primary);
 }
-
-
