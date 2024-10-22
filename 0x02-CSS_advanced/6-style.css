@@ -1,6 +1,6 @@
 :root {
-    --font-weight-regular: 400;
-    --font-weight-bold: 700;
+    --font-weight-regular: 400px;
+    --font-weight-bold: 700px;
 }
 
 body {
