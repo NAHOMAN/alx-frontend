@@ -201,6 +201,7 @@ a[href] {
     --section-title-color: var(--color-white);  /* Redefine section-title-color to color-white */
     background-color: var(--color-black);        /* Set background to color-black */
 }
+
 .footer-address {
     color: var(--text-color);
 
