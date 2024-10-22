@@ -46,6 +46,9 @@ html {
   a[href]:hover{
     text-decoration: underline;
   }
+  a[href]:active{
+    background-color: var(--color-light-grey);
+  }
   .section-header {
     text-align: var(--section-header-align);
   }
