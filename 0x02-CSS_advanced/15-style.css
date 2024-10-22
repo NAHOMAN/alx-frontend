@@ -1,0 +1,14 @@
+/* Universal box-sizing rule */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* HTML styling */
+html {
+    font-size: 62.5%;
+    /* other styles */
+}
+
+/* Other existing styles */
