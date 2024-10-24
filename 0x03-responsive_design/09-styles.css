@@ -111,9 +111,6 @@ select {
 [type=button],
 [type=reset],
 [type=submit],
-button {
-    -webkit-appearance: button
-}
 
 [type=button]::-moz-focus-inner,
 [type=reset]::-moz-focus-inner,
@@ -163,7 +160,6 @@ textarea {
 }
 
 [type=search] {
-    -webkit-appearance: textfield;
     outline-offset: -2px
 }
 
@@ -1245,6 +1241,7 @@ header .menu-btn {
     .footer .footer-nav {
         text-align: center;
     }
+
 
     /* Target the adjacent li to the li inside .social.nav and .footer-nav */
     .footer .social.nav li + li,
