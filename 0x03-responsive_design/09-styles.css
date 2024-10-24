@@ -1233,7 +1233,6 @@ header .menu-btn {
 }
 
 /* Footer section */
-
 /* Media query for max-width: 767px */
 @media (max-width: 767px) {
     /* Override the footer-padding variable in the root selector */
